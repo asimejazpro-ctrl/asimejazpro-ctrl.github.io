@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - iTechtics Solutions | Asim Ejaz</title>
+    <meta name="description" content="Comprehensive business development and digital solutions including web development, mobile apps, digital marketing, UI/UX design, and business consulting services.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">ASIM.DEV</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="ti ti-sun"></i>
+                </button>
+                <a href="contact.html" class="btn-primary">Book Consultation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="section-tag">What We Offer</div>
+            <h1>Our Services</h1>
+            <p>Comprehensive digital solutions powered by iTechtics' 12+ years of expertise</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Services</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Development Services -->
+    <section class="section" id="web">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">🌐 Web Development</div>
+                <h2 class="section-title">Full-Stack Web Solutions</h2>
+                <p class="section-desc">Custom websites and web applications built with cutting-edge technology</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-1);">
+                        <i class="ti ti-brand-wordpress"></i>
+                    </div>
+                    <h3>WordPress Development</h3>
+                    <p>Custom WordPress solutions tailored to your business needs with powerful features and optimal performance.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Custom theme development</li>
+                        <li><i class="ti ti-check"></i> Plugin customization</li>
+                        <li><i class="ti ti-check"></i> Performance optimization</li>
+                        <li><i class="ti ti-check"></i> Security hardening</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-2);">
+                        <i class="ti ti-code"></i>
+                    </div>
+                    <h3>Full-Stack Development</h3>
+                    <p>Complete web applications using React, Node.js, PHP, and modern frameworks for scalable solutions.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> React & Vue.js apps</li>
+                        <li><i class="ti ti-check"></i> Node.js backends</li>
+                        <li><i class="ti ti-check"></i> REST API development</li>
+                        <li><i class="ti ti-check"></i> Database design</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-3);">
+                        <i class="ti ti-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Development</h3>
+                    <p>WooCommerce and custom e-commerce stores with payment integration and inventory management.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> WooCommerce setup</li>
+                        <li><i class="ti ti-check"></i> Payment gateways</li>
+                        <li><i class="ti ti-check"></i> Product catalogs</li>
+                        <li><i class="ti ti-check"></i> Multi-currency support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="ti ti-palette"></i>
+                    </div>
+                    <h3>Custom Theme Development</h3>
+                    <p>Bespoke WordPress themes designed from scratch to match your brand identity perfectly.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Unique designs</li>
+                        <li><i class="ti ti-check"></i> Mobile responsive</li>
+                        <li><i class="ti ti-check"></i> SEO optimized</li>
+                        <li><i class="ti ti-check"></i> Fast loading</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <i class="ti ti-plug"></i>
+                    </div>
+                    <h3>Custom Plugin Development</h3>
+                    <p>Tailored WordPress plugins to add unique functionality specific to your business requirements.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Custom features</li>
+                        <li><i class="ti ti-check"></i> Seamless integration</li>
+                        <li><i class="ti ti-check"></i> Performance optimized</li>
+                        <li><i class="ti ti-check"></i> Regular updates</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <i class="ti ti-api"></i>
+                    </div>
+                    <h3>API Development & Integration</h3>
+                    <p>RESTful API development and third-party service integration for extended functionality.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> REST API design</li>
+                        <li><i class="ti ti-check"></i> Third-party APIs</li>
+                        <li><i class="ti ti-check"></i> Authentication</li>
+                        <li><i class="ti ti-check"></i> Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Development -->
+    <section class="section" style="background: var(--bg-secondary);" id="mobile">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">📱 Mobile Apps</div>
+                <h2 class="section-title">Native & Cross-Platform Apps</h2>
+                <p class="section-desc">Mobile applications for iOS and Android platforms</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-1);">
+                        <i class="ti ti-brand-apple"></i>
+                    </div>
+                    <h3>iOS App Development</h3>
+                    <p>Native iOS applications built with Swift for optimal performance and user experience.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Swift development</li>
+                        <li><i class="ti ti-check"></i> App Store deployment</li>
+                        <li><i class="ti ti-check"></i> Push notifications</li>
+                        <li><i class="ti ti-check"></i> In-app purchases</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-2);">
+                        <i class="ti ti-brand-android"></i>
+                    </div>
+                    <h3>Android App Development</h3>
+                    <p>Native Android apps using Kotlin and Java for millions of Android devices worldwide.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Kotlin/Java development</li>
+                        <li><i class="ti ti-check"></i> Google Play deployment</li>
+                        <li><i class="ti ti-check"></i> Material Design</li>
+                        <li><i class="ti ti-check"></i> Firebase integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-3);">
+                        <i class="ti ti-device-mobile"></i>
+                    </div>
+                    <h3>Cross-Platform Apps</h3>
+                    <p>Flutter and React Native apps that work seamlessly on both iOS and Android platforms.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Flutter/React Native</li>
+                        <li><i class="ti ti-check"></i> Single codebase</li>
+                        <li><i class="ti ti-check"></i> Cost-effective</li>
+                        <li><i class="ti ti-check"></i> Faster development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Marketing -->
+    <section class="section" id="marketing">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">📢 Digital Marketing</div>
+                <h2 class="section-title">Growth-Driven Marketing</h2>
+                <p class="section-desc">Data-driven marketing strategies to boost your online presence</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-1);">
+                        <i class="ti ti-seo"></i>
+                    </div>
+                    <h3>SEO Services</h3>
+                    <p>Search engine optimization to improve rankings and drive organic traffic to your website.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Keyword research</li>
+                        <li><i class="ti ti-check"></i> On-page optimization</li>
+                        <li><i class="ti ti-check"></i> Link building</li>
+                        <li><i class="ti ti-check"></i> Analytics & reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-2);">
+                        <i class="ti ti-share"></i>
+                    </div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Strategic social media campaigns across Facebook, Instagram, LinkedIn, and Twitter.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Content strategy</li>
+                        <li><i class="ti ti-check"></i> Community management</li>
+                        <li><i class="ti ti-check"></i> Paid campaigns</li>
+                        <li><i class="ti ti-check"></i> Influencer marketing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-3);">
+                        <i class="ti ti-ad"></i>
+                    </div>
+                    <h3>PPC Advertising</h3>
+                    <p>Google Ads and Meta Ads management for maximum ROI on your advertising spend.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Google Ads setup</li>
+                        <li><i class="ti ti-check"></i> Facebook/Instagram ads</li>
+                        <li><i class="ti ti-check"></i> Campaign optimization</li>
+                        <li><i class="ti ti-check"></i> Conversion tracking</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="ti ti-file-text"></i>
+                    </div>
+                    <h3>Content Writing</h3>
+                    <p>Professional content creation including blogs, articles, and SEO-optimized copywriting.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Blog writing</li>
+                        <li><i class="ti ti-check"></i> SEO content</li>
+                        <li><i class="ti ti-check"></i> Website copy</li>
+                        <li><i class="ti ti-check"></i> Email newsletters</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design & Branding -->
+    <section class="section" style="background: var(--bg-secondary);" id="design">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">🎨 Design & Branding</div>
+                <h2 class="section-title">Visual Identity & Design</h2>
+                <p class="section-desc">Creative design solutions that make your brand stand out</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-1);">
+                        <i class="ti ti-brush"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Professional graphic design for marketing materials, social media, and print collateral.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Marketing materials</li>
+                        <li><i class="ti ti-check"></i> Social media graphics</li>
+                        <li><i class="ti ti-check"></i> Infographics</li>
+                        <li><i class="ti ti-check"></i> Print design</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-2);">
+                        <i class="ti ti-app-window"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User interface and experience design that delights users and drives conversions.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Wireframing</li>
+                        <li><i class="ti ti-check"></i> Prototyping</li>
+                        <li><i class="ti ti-check"></i> User research</li>
+                        <li><i class="ti ti-check"></i> Usability testing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-3);">
+                        <i class="ti ti-brand-tabler"></i>
+                    </div>
+                    <h3>Brand Identity Design</h3>
+                    <p>Complete brand identity packages including guidelines, color schemes, and typography.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Brand strategy</li>
+                        <li><i class="ti ti-check"></i> Visual identity</li>
+                        <li><i class="ti ti-check"></i> Brand guidelines</li>
+                        <li><i class="ti ti-check"></i> Style guides</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="ti ti-circle"></i>
+                    </div>
+                    <h3>Logo Design</h3>
+                    <p>Memorable and timeless logo designs that represent your brand's values and vision.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Logo concepts</li>
+                        <li><i class="ti ti-check"></i> Multiple revisions</li>
+                        <li><i class="ti ti-check"></i> Vector files</li>
+                        <li><i class="ti ti-check"></i> Brand variations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Solutions -->
+    <section class="section" id="business">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">💼 Business Solutions</div>
+                <h2 class="section-title">Enterprise Support Services</h2>
+                <p class="section-desc">IT infrastructure and business management solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-1);">
+                        <i class="ti ti-database"></i>
+                    </div>
+                    <h3>CRM Integration</h3>
+                    <p>CRM consulting and integration to streamline your customer relationship management.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> CRM setup</li>
+                        <li><i class="ti ti-check"></i> Data migration</li>
+                        <li><i class="ti ti-check"></i> Workflow automation</li>
+                        <li><i class="ti ti-check"></i> Training & support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-2);">
+                        <i class="ti ti-tool"></i>
+                    </div>
+                    <h3>IT Service Management</h3>
+                    <p>Complete IT infrastructure support and management for your business operations.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Infrastructure setup</li>
+                        <li><i class="ti ti-check"></i> Network management</li>
+                        <li><i class="ti ti-check"></i> Cloud solutions</li>
+                        <li><i class="ti ti-check"></i> Technical support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: var(--gradient-3);">
+                        <i class="ti ti-refresh"></i>
+                    </div>
+                    <h3>Website Maintenance</h3>
+                    <p>24/7 website maintenance, updates, security monitoring, and performance optimization.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Regular updates</li>
+                        <li><i class="ti ti-check"></i> Security monitoring</li>
+                        <li><i class="ti ti-check"></i> Backups</li>
+                        <li><i class="ti ti-check"></i> Performance tuning</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="ti ti-server"></i>
+                    </div>
+                    <h3>Web Hosting</h3>
+                    <p>Managed hosting solutions with SSL, backups, and optimized server configurations.</p>
+                    <ul class="service-features">
+                        <li><i class="ti ti-check"></i> Cloud hosting</li>
+                        <li><i class="ti ti-check"></i> SSL certificates</li>
+                        <li><i class="ti ti-check"></i> Daily backups</li>
+                        <li><i class="ti ti-check"></i> 99.9% uptime</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Let's discuss which services are right for your business goals</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary btn-large">
+                        <i class="ti ti-calendar"></i>
+                        Schedule Consultation
+                    </a>
+                    <a href="portfolio.html" class="btn-secondary btn-large">
+                        <i class="ti ti-briefcase"></i>
+                        View Our Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">ASIM.DEV</div>
+                    <p class="footer-desc">Business Development Expert helping companies scale faster, enter new markets, and build strategic partnerships for sustainable growth.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/asimejazitechtics/" target="_blank" class="social-link">
+                            <i class="ti ti-brand-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/asimejazpro-ctrl" target="_blank" class="social-link">
+                            <i class="ti ti-brand-github"></i>
+                        </a>
+                        <a href="https://wa.me/923190249219" target="_blank" class="social-link">
+                            <i class="ti ti-brand-whatsapp"></i>
+                        </a>
+                        <a href="mailto:asimejaz.pro@gmail.com" class="social-link">
+                            <i class="ti ti-mail"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#web">Web Development</a></li>
+                        <li><a href="#mobile">Mobile Apps</a></li>
+                        <li><a href="#marketing">Digital Marketing</a></li>
+                        <li><a href="#design">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+923190249219">+92 319 0249219</a></li>
+                        <li><a href="mailto:asimejaz.pro@gmail.com">asimejaz.pro@gmail.com</a></li>
+                        <li><a href="#">Lahore, Pakistan</a></li>
+                        <li><a href="https://www.itechtics.org" target="_blank">iTechtics.org</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Asim Ejaz. All rights reserved. Powered by <a href="https://www.itechtics.org" target="_blank">iTechtics</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="ti ti-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
